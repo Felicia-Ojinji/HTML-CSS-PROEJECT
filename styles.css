@@ -1,63 +1,59 @@
-html{
-    background-color: white;
-    font-family: 'helvetica', sans-serif;
-    color: black;
-    
-    
-  }
-
-  body{
-      width:auto;
-  }
-  
-  table{
-    border-collapse: collapse;
-    border-spacing:0 15px;
-    border: 5px solid black;
-    width: auto;
+h1 {
+    background-image: url("pattern.jpeg");
     text-align: center;
-  }
-  
-  header{
-      text-align: center;
-  }
-  h1{
-    color:red;
-  }
-  
-  h2{
-    color: green;
-    text-align: center;
-  }
+    font-size: 100px;
+    color: Khaki;
+    font-weight: bold;
+    font-family:Helvetica;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
-  nav li{
-    text-align: center;
-  }
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
+.price {
+    color: Blue;
+    font-weight: bold;
+}
 
-  
-  thead{
-    border: 30px solid #1C6EA4;
-    background-color: pink;
-    width: 150px;
-    text-align: center;
-    padding: 5px;
-    margin: 0 auto;
-    white-space: nowrap;
-  }
-  
-  tbody{
-    border: 30px solid #1C6EA4;
-    background-color: white;
-    width: 150px;
-    text-align: left;
-    white-space: nowrap;
-  
-  }
-  
-  td {
-      padding: 20px;
-  }
-   section{
-       align-content: center ;
-   }
+#brushes {
+    background-color: MediumSpringGreen;
+    color: white;
+    font-size: 32px;
+    font-family: Helvetica;
+}
+
+#frames {
+    display: block;
+    font-size: 32px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+    background-color: LightCoral;
+}
+
+#paint {
+    display: block;
+    font-size: 32px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+}
